@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Example</title>
-		<style>
-			.hello {
-				background-color: black;
-				text-align: center;
-				padding: 20px;
-			}
-
-			.hello:hover {
-				background-color: red;
-			}
-
-			.text {
-				font-family: "Arial";
-				font-size: 35px;
-				color: white;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="hello"><p class="text">Hello world!</p></div>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Franklin Matheus</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/general.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <ul class="nav justify-content-end">
+          <li class="nav-item"><a href="index.html"><img style="width: 35px;" src="img/mug.svg" alt=""></a></li>
+          <li class="nav-item"><a class="nav-link active" href="index.html">home</a></li>
+          <li class="nav-item"><a class="nav-link" href="includes.html">includes</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">about</a></li>
+        </ul>
+      </div>
+      <div class="row justify-content-begin">
+        <div class="col-12">
+            <h3>Working with Folium</h3>
+            <p>Using Folium we (me and <a href="https://github.com/pedroemerick" target="_blank">Pedro</a>) made some studies about accidents in Brazil federal highways
+              based on the <a href="https://www.prf.gov.br/portal/dados-abertos/" target="_blank">open data of PRF</a>. We've used the data from January 2017 
+              through May 2019.</p> 
+            <p>Here are some results:</p>
+            <ul>
+              <li><a href="includes/charts/bar_br_count.html" target="_blank">Bar chart of accidents by highway.</a></li>
+              <li><a href="includes/maps/heatmap_rodovias.html" target="_blank">Heatmap of accidents of the 3 highways with more occurrences.</a></li>
+              <li><a href="includes/maps/heatmap_time_play.html" target="_blank">Heatmap with time of accidents in Brazil by month.</a></li>
+            </ul>
+            
+        </div>
+      </div>
+      <footer class="footer" style="position: fixed; height: 100px; bottom: 0;">
+        <p>&copy; 2019 Franklin</p>
+        <a href="https://twitter.com/reloufrank" target="_blank"><span class="badge badge-primary">Twitter</span></a>
+        <a href="https://github.com/franklinmatheus" target="_blank"><span class="badge badge-dark">Github</span></a>
+      </footer>
+    </div>
+  </body>
 </html>
