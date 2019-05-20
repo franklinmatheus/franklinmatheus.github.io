@@ -18,3 +18,8 @@ h3 {
 .header {
   padding-bottom: 40px;
 }
+
+.fadein {
+  margin-bottom: 30px;
+  display: none;
+}

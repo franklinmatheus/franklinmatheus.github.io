@@ -5,19 +5,16 @@
     <title>Franklin Matheus</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/general.css" rel="stylesheet">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/animations.js"></script>
   </head>
   <body>
-    <div class="container" style="margin-bottom: 30px">
-      <div class="header">
-        <ul class="nav justify-content-end">
-          <li class="nav-item"><a href="index.html"><img style="width: 35px;" src="img/mug.svg" alt=""></a></li>
-          <li class="nav-item"><a class="nav-link active" href="index.html">home</a></li>
-          <li class="nav-item"><a class="nav-link" href="includes.html">includes</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">about</a></li>
-        </ul>
-      </div>
+    <div class="container">
+      <div id='includeHeader'></div>
     </div>
-    <div class="container" style="margin-bottom: 30px">
+    <div class="container fadein">
       <div class="row justify-content-begin">
         <div class="col-12">
           <h3>List of includes:</h3>      
@@ -32,11 +29,7 @@
       </div>
     </div>
     <div class="container">
-      <footer class="footer">
-        <p>&copy; 2017 Franklin</p>
-        <a href="https://twitter.com/reloufrank" target="_blank"><span class="badge badge-primary">Twitter</span></a>
-        <a href="https://github.com/franklinmatheus" target="_blank"><span class="badge badge-dark">Github</span></a>
-      </footer>
+      <div id="includeFooter"></div>
     </div>
   </body>
 </html>
